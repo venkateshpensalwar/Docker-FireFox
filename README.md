@@ -1,6 +1,6 @@
 # Quick reference
 
-![Docker Pulls](https://img.shields.io/docker/pulls/venkatesh14/sshimage?color=%232496ED&logo=Docker&style=for-the-badge)
+![Docker Pulls](https://img.shields.io/docker/pulls/venkatesh14/Firefox?color=%232496ED&logo=Docker&style=for-the-badge)
 
 - Maintained by: venkatesh pensalwar
 - Where to get help: venkateshpensalwar@gmail.com
@@ -20,6 +20,8 @@ docker run -it --rm --env=$DISPLAY --net=host --volume="/tmp/.X11-unix:/tmp/.X11
 |--env=$DISPLAY| $DISPLAY is enviorment variable it consist id of Host Display|
 |--volume=/tmp/.X11-unix:/tmp/.X11-unix:rw|it is x11 server configuration needed to display container GUI on host machine
 |--net=host|network is Host|
+
+
 
 
 
