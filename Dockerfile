@@ -6,6 +6,6 @@ LABEL maintainer="venkateshpensalwar@gmail.com"
 LABEL version="1.0"
 
 ## install basic software needed for running firefox image 
-RUN yum install firefox -y
+RUN yum install firefox gedit -y
 
-CMD ["firefox"]
+CMD ["/bin/bash"]
