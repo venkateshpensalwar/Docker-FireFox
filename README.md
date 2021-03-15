@@ -1,6 +1,6 @@
 # Quick reference
 
-![Docker Pulls](https://img.shields.io/docker/pulls/venkatesh14/Firefox?color=%232496ED&logo=Docker&style=for-the-badge)
+![Docker Pulls](https://img.shields.io/docker/pulls/venkatesh14/mozilla-firefox?color=%232496ED&logo=Docker&style=for-the-badge)
 
 - Maintained by: venkatesh pensalwar
 - Where to get help: venkateshpensalwar@gmail.com
@@ -11,7 +11,7 @@
 Run the following command to use this image
 
 ```
-docker run -it --rm --env=$DISPLAY --net=host --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" venkatesh14/Firefox
+docker run -it --rm --env=$DISPLAY --net=host --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" venkatesh14/mozilla-firefox
 ```
 
 
